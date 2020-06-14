@@ -1,0 +1,31 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+         
+         System.out.println(Grade(82.3)); //integer nubers also works
+         
+        
+     }
+     
+     
+     
+     public static char Grade(double x){
+         if (x>=90) {
+            return('A');
+        } 
+        else if (x>=80 && x<90) {
+            return('B');
+        }
+        else if (x>=70 && x<80) {
+            return('C');
+        }
+        else if (x>=60 && x<70) {
+            return('D');
+        }
+        else {
+            return('F');
+        }
+         
+     }
+}
